@@ -96,9 +96,9 @@ def main() -> int:
         for err in all_errors:
             print(f"  - {err}")
         return 1
-
-    print("Validation PASSED: all dandiset submodules look correct.")
-    return 0
+    else:
+        print(f"\nValidation PASSED. All {len(modules)} submodule(s) look good.")
+        return 0
 
 
 if __name__ == "__main__":
