@@ -97,7 +97,7 @@ def main() -> int:
             print(f"  - {err}")
         return 1
     else:
-        print(f"\nValidation PASSED. All {len(modules)} submodule(s) look good.")
+        print(f"\nAll {len(modules)} submodule(s) passed validation.")
         return 0
 
 
